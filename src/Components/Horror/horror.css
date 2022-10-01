@@ -1,0 +1,20 @@
+.horrorimg{
+    width:170px;
+    height:150px;
+}
+
+.horrorimg:hover{
+    transform:scale(1.4);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.horrorall{
+   display:flex;
+   flex-direction: row;
+   overflow: scroll;
+}
+
+.horrordiv{
+    margin:7px;
+}

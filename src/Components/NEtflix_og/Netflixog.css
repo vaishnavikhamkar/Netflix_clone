@@ -1,0 +1,20 @@
+.netflixOgimg{
+    width:170px;
+    height:150px;
+}
+
+.netflixOgimg:hover{
+    transform:scale(1.4);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.netflixall{
+   display:flex;
+   flex-direction: row;
+   overflow: scroll;
+}
+
+.netflixOgdiv{
+    margin:7px;
+}

@@ -1,0 +1,20 @@
+.trendingOgimg{
+    width:170px;
+    height:150px;
+}
+
+.trendingOgimg:hover{
+    transform:scale(1.4);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.trendingall{
+   display:flex;
+   /* flex-direction: row; */
+   overflow: scroll;
+}
+
+.trendingOgdiv{
+    margin:7px;
+}

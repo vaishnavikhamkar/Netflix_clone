@@ -1,0 +1,20 @@
+.documentaryimg{
+    width:170px;
+    height:150px;
+}
+
+.documentaryimg:hover{
+    transform:scale(1.4);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.documentaryall{
+   display:flex;
+   flex-direction: row;
+   overflow: scroll;
+}
+
+.documentarydiv{
+    margin:7px;
+}

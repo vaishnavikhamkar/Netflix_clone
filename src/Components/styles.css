@@ -1,0 +1,22 @@
+.nav{
+    background-color: black;
+    
+}
+
+#nav-title{
+    color:white;
+}
+
+img{
+    width:100px;
+    height: 50px;
+}
+
+.alldiv{
+    display: flex;
+    overflow: scroll;
+}
+
+.alldiv::-webkit-scrollbar {
+    overflow:hidden;
+}

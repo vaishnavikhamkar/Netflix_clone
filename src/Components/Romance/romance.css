@@ -1,0 +1,20 @@
+.romanceimg{
+    width:170px;
+    height:150px;
+}
+
+.romanceimg:hover{
+    transform:scale(1.4);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.romanceall{
+   display:flex;
+   flex-direction: row;
+   overflow: scroll;
+}
+
+.romancediv{
+    margin:7px;
+}

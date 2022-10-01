@@ -1,0 +1,20 @@
+.topratedimg{
+    width:170px;
+    height:150px;
+}
+
+.topratedimg:hover{
+    transform:scale(1.4);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.topratedall{
+   display:flex;
+   flex-direction: row;
+   overflow: scroll;
+}
+
+.toprateddiv{
+    margin:7px;
+}
